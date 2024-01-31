@@ -1,0 +1,8 @@
+build*/
+# To exclude content and subdirectories
+**/.vscode/*
+
+# To just exclude all subdirectories but take the content, add "/":
+**/external/*/
+
+CMakeUserPresets.json
