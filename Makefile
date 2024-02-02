@@ -44,7 +44,7 @@ conansource: pre-configure
 	@conan source .
 
 conanclean: pre-configure
-	@rm -rf external/*
+	@rm -rf external/*/
 	@conan remove "*" -c
 
 conancreate: pre-configure
